@@ -24,3 +24,5 @@ Required Python Libraries
 
 In this project, face detection is performed using the "shape_predictor_68_face_landmarks.dat" dataset. From this detection process, eye-related data is used to calculate the eye aspect ratio. These ratios are added to a list. The highest value in this list and the lowest value among the values up to its position in the list are found. This way, the highest difference between any two elements in the list is determined. Then, the average of the differences between each pair of elements in the list is calculated. If the difference between these two values exceeds a given threshold value (set to '10' in the program), it is considered as a blink. Additionally, the list of eye aspect ratios is displayed on a live graph. The program should be provided with a dataset and a video source as arguments. If "webcam" is provided as the video source argument, the device's camera is selected as the source.
 
+Dataset Link: https://drive.google.com/file/d/156k6hB1ldLolCUfGaT0d2NHal5Ve0ids/view?usp=sharing
+
